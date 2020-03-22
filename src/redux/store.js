@@ -44,7 +44,7 @@ let store = {
     dispatch(action) {
         this._state.profilePage = ProfileReducer(this._state.profilePage, action);
         this._state.dialogsPage = DialogsReducer(this._state.dialogsPage, action);
-        this._callSubscriber(this._state);git status
+        this._callSubscriber(this._state);
     }
 };
 
