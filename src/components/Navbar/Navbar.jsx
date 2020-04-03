@@ -24,5 +24,5 @@ const Navbar = () => {
             <Friends/>
         </div>
     </nav>
-}
+};
 export default Navbar;
