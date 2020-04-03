@@ -4,9 +4,10 @@ import Navbar from "./Navbar";
 
 const NavbarContainer = () => {
     return <StoreContext.Consumer>
-        {store => {
-            return <Navbar/>
-        }
+        {
+            (store) => {
+                return <Navbar/>
+            }
         }
     </StoreContext.Consumer>
 };
